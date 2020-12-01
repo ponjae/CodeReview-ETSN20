@@ -12,7 +12,7 @@ public class lab {
         String wordToSearchFor = inputs[1];
         String filename = inputs[2];
         //test
-
+        // en ny version av koden testas
         try {
             Scanner scan = new Scanner(new File(filename)).useDelimiter("\\. ");
             while(scan.hasNext()){
