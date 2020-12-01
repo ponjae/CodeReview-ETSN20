@@ -11,6 +11,7 @@ public class lab {
         String[] inputs = input.split(" ");
         String wordToSearchFor = inputs[1];
         String filename = inputs[2];
+        //test
 
         try {
             Scanner scan = new Scanner(new File(filename)).useDelimiter("\\. ");
